@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PraRoz Web Design</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('pemandangan.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: rgb(255, 255, 255);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: orange;
+        }
+
+        .navbar nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar nav ul li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .search-bar {
+            display: flex;
+            gap: 5px;
+        }
+
+        .search-bar input {
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        .search-bar button {
+            padding: 6px 10px;
+            background-color: orange;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 100px;
+        }
+
+        .content {
+            max-width: 50%;
+        }
+
+        .content h1 {
+            font-size: 48px;
+        }
+
+        .content span {
+            color: orange;
+        }
+
+        .content p {
+            margin: 20px 0;
+            font-size: 18px;
+        }
+
+        .join-btn {
+            padding: 10px 20px;
+            background-color: orange;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            color: white;
+        }
+
+        .login-box {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 300px;
+        }
+
+        .login-box h2 {
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .login-box input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .login-box button {
+            width: 100%;
+            padding: 10px;
+            background-color: orange;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .login-box a {
+            color: orange;
+            text-decoration: none;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+        }
+
+        .social-icons img {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="Logo">Alfazri Aryangara</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICE</a></li>
+                    <li><a href="design.html">DESIGN</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Hello guys">
+                <button>Search</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-content">
+        <div class="content">
+            <h1>Website keren <span>Anak cerdas</span> 2024</h1>
+            <p>Selamat datang Di Website saya yang bernama Alfazri Aryangara,Mau lebih lanjut silahkan Kunjungi di situs saya ini Thank You.</p>
+            <button class="join-btn">Join Sekarang</button>
+        </div>
+        <div class="login-box">
+            <h2>Login Here</h2>
+            <form>
+                <input type="text" placeholder="Enter Username Here">
+                <input type="password" placeholder="Enter Password Here">
+                <button type="submit">Login</button>
+                <p>Don't have an account? <a href="#">Sign up here</a></p>
+            </form>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="facebook-icon.png.jpg" alt="Facebook">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="instagram-icon.png" alt="Instagram">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="twitter-icon.png" alt="Twitter">
+                </a>
+                <a href="https://google.com" target="_blank">
+                    <img src="Google-icon.png" alt="Google">
+                </a>
+                <a href="https://skype.com" target="_blank">
+                    <img src="skype-icon.png" alt="Skype">
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
